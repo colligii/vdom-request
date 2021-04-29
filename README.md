@@ -44,3 +44,28 @@ See more at <https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest>
 
   - Get some request infos.
 
+# Get Started.
+
+## Install using npm 
+
+```
+  npm i --save vdom-request
+```
+
+## via yarn
+
+```
+  yarn add vdom-request
+```
+
+# Import
+
+```
+import request from 'vdom-request'
+```
+
+# Require method
+
+```
+const request = require('vdom-request')
+```
