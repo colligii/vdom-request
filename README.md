@@ -1,9 +1,7 @@
 # VDOM REQUEST Library
-
-<div style="display: flex; justify-content: center; padding: 15px 0px;">
-    <img style="width: 150px" title="VDOM Request" src="https://raw.githubusercontent.com/colligii/vdom-request/main/VDOM-request.png">
-
-</div>
+<span style="display: flex; justify-content: center">
+<img style="max-width: 150px;" title="VDOM Request" src="https://raw.githubusercontent.com/colligii/vdom-request/main/VDOM-request.png">
+</span>
 
 ## What's this library?
 
