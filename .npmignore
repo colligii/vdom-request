@@ -1,5 +1,6 @@
 package.json
 .gitignore
 .npmignore
+index.html
 VDOM-request.js
 backend
