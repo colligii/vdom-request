@@ -1,4 +1,5 @@
 package.json
 .gitignore
+.npmignore
 VDOM.request.min.js
 backend
