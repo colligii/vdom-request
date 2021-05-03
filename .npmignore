@@ -1,4 +1,4 @@
 package.json
 .gitignore
-VDOM.request.min.js
+VDOM-request.js
 backend

@@ -1,71 +1,111 @@
 # VDOM REQUEST Library
-<span style="display: flex; justify-content: center">
-<img style="max-width: 150px;" title="VDOM Request" src="https://raw.githubusercontent.com/colligii/vdom-request/main/VDOM-request.png">
-</span>
+<img style="max-width: 150px;display: block; margin: 0 auto;" title="VDOM Request" src="https://raw.githubusercontent.com/colligii/vdom-request/main/VDOM-request.png">
 
-## What's this library?
+<span style="font-size: 20px;padding: 2px;color: red">This library runs just in browsers.</span>
 
-it's a simple XMLHttpRequest library to make requests (POST, GET).
+## Get Started
 
-- GET
-```
-request.get(SITE_URL, { XMLHTTPPROPS }, callback function)
-```
-- POST
-```
-request.post(SITE_URL, { json: {}, another XMLHTTPPROPS }, callback function)
-```
+You have 2 ways to use this library.
 
->json props have to been seted like a JSON Format, Back-end have to been seted to accept then.
+## You can use this on React, using the follow commands.
 
-- ## Props
-
-basically props defines in XMLHttpRequest you have to set in JSON Format.
-
-See more at <https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest>
-
-- ## Callback Functions
-
-### Have 3 properties inside of this functions
+> ### React or others similiar frameworks.
 
 ```
-(err, body, status) => {// my function code}
+npm i --save vdom-request 
+```
+or
+```
+yarn add vdom-request
 ```
 
-- Error
-
-  - if your request return some error this is will represent then with boolean state ( true, false )
-
-- body
-
-  - Get response body
-
-- Status 
-
-  - Get some request infos.
-
-# Get Started.
-
-## Install using npm 
-
-```
-  npm i --save vdom-request
-```
-
-## via yarn
-
-```
-  yarn add vdom-request
-```
-
-# Import
-
+in React you just have to use the follow line:
 ```
 import request from 'vdom-request'
 ```
 
-# Require method
+> ### Using browserify or others similiar framework 
+
+```
+Install equals react framework.
+```
+
+And import in this method
 
 ```
 const request = require('vdom-request')
 ```
+## Or in normal HTML script tag
+
+```
+<script src="https://raw.githubusercontent.com/colligii/vdom-request/main/VDOM-request.js"></script>
+```
+
+# Methods
+
+### This framework is based on XMLHTTPRequest browser functionality.
+
+> To see more, join in this link [XMLHTTPRequest post - Mozilla content](https://developer.mozilla.org/pt-BR/docs/Web/API/XMLHTTPRequest) 
+
+## Get method
+
+To use get method you have to use the follow command
+```
+request.get('link', { props }, //callback functions)
+```
+## Post method
+
+To use post method you have to use the follow command
+```
+request.post('link', { props }, //callback functions)
+```
+# Props
+
+
+## Post
+
+> ### JSON in body
+for example to send { teste: 'lorem ipsum' } in request body you just have to use.
+
+you have to put this in props json.
+```
+json: {
+    teste: 'lorem ipsum'
+}
+```
+You can add 2 or more.
+
+## Get & Post
+
+> ### Params
+
+for example to set this in link ?teste=ola
+
+you have to set this in props
+```
+params: {
+    link: 'ola'
+}
+```
+You can add 2 or more.
+> ### Headers
+
+for example to set this value in header:
+> token: 'some_token'
+
+you have to set this in props
+```
+headers: {
+    token: 'some_token'
+}
+```
+You can add 2 or more.
+
+> ### contentType
+
+to set the type of response you have to put in props json.
+
+```
+{ contentType: 'string_of_type_in_XMLHTTPRequest'}
+```
+You can't set 2 or more response content type

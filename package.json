@@ -1,8 +1,8 @@
 {
   "name": "vdom-request",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Simple HTTP request library",
-  "main": "VDOM-request.js",
+  "main": "VDOM.request.min.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/colligii/vdom-request.git"
   },
-  "keywords": ["htp request", "vdom"],
+  "keywords": ["http request", "vdom"],
   "author": "colli",
   "license": "ISC",
   "bugs": {
