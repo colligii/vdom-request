@@ -1,7 +1,7 @@
 # VDOM REQUEST Library
 <img style="max-width: 150px;display: block; margin: 0 auto;" title="VDOM Request" src="https://raw.githubusercontent.com/colligii/vdom-request/main/VDOM-request.png">
 
-<span style="font-size: 20px;padding: 2px;color: red">This library runs just in browsers.</span>
+## This library runs just in browsers
 
 ## Get Started
 
@@ -109,3 +109,7 @@ to set the type of response you have to put in props json.
 { contentType: 'string_of_type_in_XMLHTTPRequest'}
 ```
 You can't set 2 or more response content type
+
+# Version 1.0.5
+
+> it's just a performatic updated, nothing changes.

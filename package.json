@@ -1,6 +1,6 @@
 {
   "name": "vdom-request",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Simple HTTP request library",
   "main": "VDOM.request.min.js",
   "scripts": {
