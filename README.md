@@ -40,7 +40,11 @@ const request = require('vdom-request')
 ```
 <script src="https://raw.githubusercontent.com/colligii/vdom-request/main/VDOM-request.js"></script>
 ```
+or you can use the minify file to make your page renders more faster.
 
+```
+<script src="https://raw.githubusercontent.com/colligii/vdom-request/main/VDOM-request-browser.min.js"></script>
+```
 # Methods
 
 ### This framework is based on XMLHTTPRequest browser functionality.
