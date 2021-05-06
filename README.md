@@ -118,7 +118,7 @@ You can't set 2 or more response content type
 
 > it's just a performatic updated, nothing changes.
 
-# Version 1.0.6 
+# Version 1.0.7 
 
 ## Hot fix in error, json is not defined.
 

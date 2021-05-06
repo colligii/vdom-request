@@ -65,6 +65,7 @@ const request = (()=>{
             ObjKeys.map(item => {
                 if(item !== 'headers' && item !== 'params' && item !== 'contentType' && item !== "json"){
                     myRequest[item] = opt[item]
+                    
                 }
             })
         }
